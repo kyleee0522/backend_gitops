@@ -4,3 +4,5 @@ resources:
 - deployment.yaml
 - service.yaml
 images:
+- name: ghcr.io/kyleee0522/springboot_crud_security_aop_query_feign
+  newTag: "20240325021629"
