@@ -21,4 +21,6 @@ spec:
           - name: SPRING_PROFILES_ACTIVE
             value: "prd"
         ports:
-        - containerPort: 8080
+        - containerPort: 8082
+      imagePullSecrets:
+      - name: argo-secret
