@@ -14,13 +14,13 @@ spec:
         app: backend
     spec:
       containers:
-      - name: backend
-        image: ghcr.io/kyleee0522/springboot_crud_security_aop_query_feign:v1
-        imagePullPolicy: Always
-        env:
-          - name: SPRING_PROFILES_ACTIVE
-            value: "prd"
-        ports:
-        - containerPort: 8082
+        - name: backend
+          image: ghcr.io/kyleee0522/springboot_crud_security_aop_query_feign:v1
+          imagePullPolicy: Always
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: "prd"
+          ports:
+            - containerPort: 8082
       imagePullSecrets:
-      - name: argo-secret
+        - name: argo-secret
