@@ -6,5 +6,3 @@ resources:
 images:
 - name: ghcr.io/kyleee0522/edu_baseinfo
   newTag: "20240404055458"
-- name: ghcr.io/kyleee0522/springboot_crud_security_aop_query_feign
-  newTag: "20240325021629"
