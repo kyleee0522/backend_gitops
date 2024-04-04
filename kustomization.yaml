@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: ghcr.io/kyleee0522/edu_baseinfo
-  newTag: "20240404055458"
+  newTag: "20240404062409"
