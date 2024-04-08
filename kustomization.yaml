@@ -6,3 +6,5 @@ resources:
 images:
 - name: ghcr.io/kyleee0522/edu_baseinfo
   newTag: "20240404062409"
+- name: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo
+  newTag: "20240408014702"
