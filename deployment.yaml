@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo
+          image: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo_redis
           imagePullPolicy: Always
           env:
             - name: SPRING_PROFILES_ACTIVE
