@@ -6,3 +6,5 @@ resources:
 images:
 - name: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo
   newTag: "20240416053745"
+- name: myharbor.apps.211-34-231-93.nip.io/edu/edu_baseinfo_redis
+  newTag: "20240417070553"
